@@ -1,0 +1,280 @@
+
+/* 
+    1-comon style
+    2-general styles 
+    3-sections
+        3.0 header section 
+        3.1 home section 
+        3.2 about section 
+        3.3 portfolio section 
+        3.4 service section 
+        3.5 prices section 
+        3.6team section 
+        3.7 blog page 
+        3.8contact section
+        
+
+
+*/
+
+/* 1-comon */
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);    
+}
+..hover-opacity{
+    transition: opacity 0.5s;
+}
+
+.hover-opacity:hover{
+    opacity: 0.8;
+}
+
+button{
+    font-family: "varela round", sans-serif;
+}
+.lte-effect{
+    position: relative;
+}
+.lte-effect:after{
+    position: absolute;
+}
+
+
+ /*2- general css style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.container{
+    width: 80%;
+    height: 80px;
+    
+    margin: auto;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+.header .content{
+    overflow: hidden;
+}
+.pd-y{
+    padding: 120px 0;
+}
+
+.section-header{
+    text-align: center;
+}
+.section-header .section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.section-header .line{
+    display: block;
+    height: 5px;
+    width: 60px;
+    margin: 0 auto 70 auto;
+    background-color: #6195ff;
+}
+
+
+/* 3-sections */
+
+
+
+
+
+/* 3.0header section  */
+.header{    
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header .logo {
+    width: 40%;
+    
+    float: left;
+}
+.header .logo img{
+    width: 20%;
+    margin-top: 15px;
+}
+
+.header .nav{
+    width: 60%;
+    float: right;
+    list-style: none;
+    text-align: right;
+}
+.header .nav li {
+    display: inline-block;
+   
+    text-align: right;
+}
+.header .nav li a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 30px 15px;
+}
+.header .nav li a.active:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #6195ff ;
+}
+.header .nav li a:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #6195ff ;
+}
+.header .nav li a:hover:after{
+    width: 100%;
+}
+.dropdown{
+    position: relative;
+}
+
+
+.dropdown-menu{
+    position: absolute;
+}
+
+
+
+
+
+
+/*3.1 home section */
+.home{
+    height: 100vh;
+    background-image:url(../images/background/background1.webp) ;
+    background-size: cover;
+    position: relat;}
+.home-content{
+    ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home .h1{
+    color: #fff;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+}
+.home .desc{
+    margin: 10px 0;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.5;
+
+}
+.home .btn {
+    min-width: 160px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.home .btn-start{
+    margin-right: 10px;
+    background-color: #fff;
+}
+.home .btn-learn {
+    background-color: #6195ff;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* about section */
+.about {
+
+}
+.about-content{
+    overflow: hidden;
+}
+.about-item{
+    width: 30%;
+     float: left;
+     text-align: center;
+     border: 1px solid #e8e8e8;
+     padding: 50px 20px;
+}
+.about-item:hover {
+    background: red;
+
+}
+.about-item.mg{
+    margin: 0 5%;
+}
+.about-item .icon{
+    color: #6195ff;
+    margin-bottom: 10px;
+}
+.about-item-title{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.about-item-desc{
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.about-title-link {
+    color: #6195ff;
+    text-transform: capitalize;
+}
+
+
+/* portfolio section */
+/* service section */
+/* prices section */
+/* team section */
+/* bloh page */
+/* contact section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
